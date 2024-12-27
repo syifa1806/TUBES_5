@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu Ketoprak Ibu Syifa</title>
+    <style>
+      body {
+        background: url("https://images.pexels.com/photos/129731/pexels-photo-129731.jpeg")
+          no-repeat center center fixed;
+        background-size: cover;
+        color: #030201;
+        font-family: "Poppins", sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+      }
+
+      h1 {
+        font-size: 3em;
+        margin-bottom: 20px;
+      }
+
+      .menu-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 20px;
+      }
+
+      .menu-item {
+        width: calc(33% - 20px);
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 20px;
+        text-align: center;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      }
+
+      .menu-item img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        margin-bottom: 10px;
+      }
+
+      .menu-item h2 {
+        margin-bottom: 10px;
+        color: #222;
+      }
+
+      .menu-item p {
+        margin-bottom: 10px;
+        color: #555;
+      }
+
+      .menu-item .price {
+        font-size: 1.5em;
+        font-weight: bold;
+        color: #222;
+        margin-bottom: 15px;
+      }
+
+      .menu-item button {
+        background-color: #528f4d;
+        color: #fff;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 1em;
+        transition: background-color 0.3s ease;
+      }
+
+      .menu-item button:hover {
+        background-color: #52913f;
+      }
+
+      footer {
+        margin-top: 40px;
+        text-align: center;
+        font-size: 0.8em;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Menu Ketoprak Ibu Syifa</h1>
+    <div class="menu-container">
+      <div class="menu-item">
+        <img
+          src="https://www.alinear.id/assets_web/images/article/0d66f5f1433fba96c715267a12a8d297.jpeg"
+          alt="Ketoprak Biasa"
+        />
+        <h2>Ketoprak Biasa</h2>
+        <p>Harga merakyat & sudah pasti nikmat.</p>
+        <div class="price">Rp 12.000</div>
+        <button onclick="location.href='Home.html'">Pesan Sekarang</button>
+      </div>
+      <div class="menu-item">
+        <img
+          src="https://www.alinear.id/assets_web/images/article/0d66f5f1433fba96c715267a12a8d297.jpeg"
+          alt="Ketoprak Uhuy"
+        />
+        <h2>Ketoprak Uhuy</h2>
+        <p>Porsi lebih besar dan lebih kenyang.</p>
+        <div class="price">Rp 15.000</div>
+        <button onclick="location.href='Home.html'">Pesan Sekarang</button>
+      </div>
+      <div class="menu-item">
+        <img
+          src="https://www.alinear.id/assets_web/images/article/0d66f5f1433fba96c715267a12a8d297.jpeg"
+          alt="Paket Ketoprak Sigma"
+        />
+        <h2>Paket Ketoprak Sigma</h2>
+        <p>Ketoprak full topping dengan 1 buah es teh manis/air mineral.</p>
+        <div class="price">Rp 19.000</div>
+        <button onclick="location.href='Home.html'">Pesan Sekarang</button>
+      </div>
+      <div class="menu-item">
+        <img
+          src="https://www.alinear.id/assets_web/images/article/0d66f5f1433fba96c715267a12a8d297.jpeg"
+          alt="Paket Skibidi Ketoprak"
+        />
+        <h2>Paket Skibidi Ketoprak</h2>
+        <p>Paket Super Lengkap dan Super kenyang</p>
+        <div class="price">Rp 23.000</div>
+        <button onclick="location.href='Home.html'">Pesan Sekarang</button>
+      </div>
+    </div>
+
+    <footer>&copy; 2024.</footer>
+  </body>
+</html>
